@@ -16,6 +16,7 @@ int main() {
 
 
    // --- Carta 1 ---
+   printf("\nCarta 1\n");
    printf("Digite o nome do estado (Uma letra de A a H):");
    scanf(" %c", &estado1);
 
@@ -38,7 +39,8 @@ int main() {
    scanf(" %d", &pontos1);
 
    // --- Carta 2 ---
-   printf("Digite o nome do estado (Uma letra de A a H):");
+   printf("\nCarta 2\n");
+   printf("\nDigite o nome do estado (Uma letra de A a H):");
    scanf(" %c", &estado2);
 
    printf("Digite o codigo da carta usando a primeira letra do estado(ex: A01, B02):");
@@ -78,10 +80,7 @@ int main() {
     printf("PIB: %.2f de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontos2);
 
-
-
-
-
+    
 
     return 0;
 }
